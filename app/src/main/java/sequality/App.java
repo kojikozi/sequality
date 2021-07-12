@@ -10,5 +10,8 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+        System.out.println(new Calculate().cal1(2, 3));
+        System.out.println(new Calculate().cal2());
+        System.out.println(new Calculate().cal3());
     }
 }
